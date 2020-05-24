@@ -7,12 +7,15 @@ ul{
 #casa{
     margin-left: -29px;
 }
-#add img{
-    width: 50px;
-    height: 50px;
+#add{
+    background: url(./img/add.png);
+    width: 45px;
+    height: 45px;
     position: absolute;
     top: 89%;
     left: 80%;
+    border: none;
+    cursor: pointer;
 }
 #frase-principal{
     position: absolute;
@@ -30,17 +33,23 @@ ul{
     top: 29%;
     left: 37%;
 }
-#menu img{
+#menu{
+    background: url(./img/signs.png) no-repeat;
     height: 38px;
     width: 38px;
     position: absolute;
     left: 5%;
     top: 2%;
+    border: none;
+    cursor: pointer;
 }
-#config-dots img{
+#config{
+    background: url(./img/shapes-and-symbols.png)no-repeat;
     height: 30px;
     width: 30px;
     position: absolute;
     right: 2%;
+    border: none;
+    cursor: pointer;
 }
 
